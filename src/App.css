@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+}
+h1 {
+  font-family: "ZCOOL KuaiLe", sans-serif;
+  font-size: 2.5rem;
+  color: #b71c1c; /* Vermelho tradicional chinês */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.container {
+  width: 550px;
+  height: 650px;
+}
+
+button {
+  margin-top: 20px;
+  background: linear-gradient(
+    to bottom,
+    #d32f2f,
+    #b71c1c
+  ); /* Vermelho tradicional chinês */
+  color: #ffd700; /* Dourado, remetendo à prosperidade */
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: 3px solid #ffd700; /* Borda dourada */
+  border-radius: 8px;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: "运气"; /* "Sorte" em chinês */
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  color: rgba(255, 215, 0, 0.7);
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #b71c1c, #d32f2f);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
