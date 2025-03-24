@@ -313,7 +313,7 @@ function App() {
     if (!quebrado) {
       const fraseAleatoria =
         frasesBiscoito[Math.floor(Math.random() * frasesBiscoito.length)];
-      setFrase(fraseAleatoria);
+      setFrase(`"${fraseAleatoria}"`);
       setImagem(aberto);
       setQuebrado(true);
       tocarSom(music);
