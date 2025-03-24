@@ -329,6 +329,7 @@ function App() {
   return (
     <div className="container">
       <h1>Biscoito da Sorte</h1>
+      <h2>幸運餅乾</h2>
       <img
         src={imagem}
         alt="Biscoito da sorte"
