@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
 body {
   width: 100vw;
   height: 100vh;
@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: start;
   text-align: center;
-  font-family: "Brush Script MT", cursive;
+  font-family: "Winky Sans", sans-serif;
 }
 h1 {
   font-family: "ZCOOL KuaiLe", sans-serif;
@@ -39,7 +39,7 @@ button {
     #b71c1c
   ); /* Vermelho tradicional chinês */
   color: #ffd700; /* Dourado, remetendo à prosperidade */
-  font-family: "Brush Script MT", cursive;
+  font-family: "Winky Sans", cursive;
   font-size: 1.4rem;
   padding: 0.8rem 1.3rem;
   border: 0.3rem solid #ffd700; /* Borda dourada */
