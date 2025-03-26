@@ -21,7 +21,7 @@ function App() {
 
   const pegarFraseAleatoria = () => {
     if (!quebrado) {
-      const frases = t("fortune_phrases", { returnObjects: true }); // Pega as frases traduzidas
+      const frases = t("fortune_phrases", { returnObjects: true });
       const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
       setFrase(`"${fraseAleatoria}"`);
       setImagem(aberto);
@@ -42,11 +42,11 @@ function App() {
 
   return (
     <div className="container">
-      <h1>{t("fortune_cookie")}</h1> {/* Aqui usamos a tradução */}
-      <h2>幸運餅乾</h2> {/* Título em Chinês, pode ser traduzido também */}
+      <h1>{t("fortune_cookie")}</h1>
+      <h2>幸運餅乾</h2>
       <img
         src={imagem}
-        alt={t("fortune_cookie")} // Usando a tradução aqui também
+        alt={t("fortune_cookie")}
         onClick={pegarFraseAleatoria}
         style={{ cursor: !quebrado ? "pointer" : "default" }}
       />
