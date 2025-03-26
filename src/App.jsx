@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import fechado from "./assets/biscoito.png";
 import aberto from "./assets/aberto.png";
@@ -13,6 +13,10 @@ function App() {
   const [imagem, setImagem] = useState(fechado);
   const [quebrado, setQuebrado] = useState(false);
   const [modal, setModal] = useState(true);
+
+  useEffect(() => {
+    document.title = t("fortune_cookie");
+  }, [i18n.language, t]);
 
   const tocarSom = (som) => {
     const audio = new Audio(som);
