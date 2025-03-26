@@ -62,13 +62,19 @@ function App() {
           <div className="modal-idioma">
             <h1>Language/Idioma</h1>
             <div className="flags">
-              <US className="flag" onClick={() => mudarIdioma("en")} />
-              <BR className="flag" onClick={() => mudarIdioma("pt")} />
-              <ES className="flag" onClick={() => mudarIdioma("es")} />
+              <div className="flagCase">
+                <US className="flag" onClick={() => mudarIdioma("en")} />
+                English
+              </div>
+              <div className="flagCase">
+                <BR className="flag" onClick={() => mudarIdioma("pt")} />
+                Português
+              </div>
+              <div className="flagCase">
+                <ES className="flag" onClick={() => mudarIdioma("es")} />
+                Español
+              </div>
             </div>
-            <p>Select your language</p>
-            <p>Selecione seu idioma</p>
-            <p>Selecciona tu idioma</p>
           </div>
         </>
       )}
