@@ -293,4 +293,12 @@ const frasesBiscoito = [
   "A vida não é uma competição, mas um processo de evolução contínua.",
 ];
 
+const duplicatas = frasesBiscoito.filter((frase, index) => {
+  return frasesBiscoito.indexOf(frase) !== index;
+});
+
+console.log("Duplicatas:", duplicatas);
+const frasesUnicas = [...new Set(frasesBiscoito)];
+
+console.log(frasesUnicas);
 export default frasesBiscoito;

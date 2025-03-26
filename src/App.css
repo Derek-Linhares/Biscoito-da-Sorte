@@ -68,6 +68,37 @@ button:active {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.modal-idioma {
+  width: 30rem;
+  height: 45rem;
+  position: absolute;
+  margin-top: -35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15%;
+}
+
+.flags {
+  width: 29rem;
+  height: 10rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 7rem;
+  cursor: pointer;
+}
+
+.flag:hover {
+  transform: translateY(0.2rem);
+}
+
 @media (max-height: 1440px) {
   html {
     font-size: 20px;
