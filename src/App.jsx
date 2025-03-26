@@ -66,6 +66,9 @@ function App() {
               <BR className="flag" onClick={() => mudarIdioma("pt")} />
               <ES className="flag" onClick={() => mudarIdioma("es")} />
             </div>
+            <p>Select your language</p>
+            <p>Selecione seu idioma</p>
+            <p>Selecciona tu idioma</p>
           </div>
         </>
       )}
