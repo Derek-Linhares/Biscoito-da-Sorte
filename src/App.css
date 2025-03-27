@@ -8,6 +8,7 @@ body {
   align-items: start;
   text-align: center;
   font-family: "Winky Sans", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 h1 {
   font-family: "ZCOOL KuaiLe", sans-serif;
@@ -152,5 +153,9 @@ button:active {
     overflow-y: hidden;
     overflow-x: hidden;
     touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 }
