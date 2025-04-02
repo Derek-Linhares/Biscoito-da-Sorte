@@ -40,19 +40,7 @@
    ```
 5. **Acesse no navegador:** `http://localhost:3000`
 
-## 📂 Estrutura do Projeto
 
-```
-📁 biscoito-da-sorte
-├── 📂 src
-│   ├── 📂 assets       # Imagens e áudios
-│   ├── 📂 components   # Componentes reutilizáveis
-│   ├── App.jsx        # Componente principal
-│   ├── App.css        # Estilização do projeto
-│   ├── index.js       # Ponto de entrada do React
-├── package.json       # Dependências do projeto
-├── README.md          # Documentação
-```
 
 ## 📜 Licença
 
@@ -60,6 +48,6 @@ Este projeto está sob a licença **MIT**. Sinta-se à vontade para usá-lo e co
 
 ---
 
-🔗 **Veja o projeto online:** [URL do projeto]
-📌 **Repositório no GitHub:** [GitHub Repo]
+🔗 **Veja o projeto online:** https://biscoito-da-sorte-opal.vercel.app/
+
 
