@@ -1,12 +1,65 @@
-# React + Vite
+# 🍪 Biscoito da Sorte Interativo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Um aplicativo web interativo que simula um biscoito da sorte virtual. Abra o biscoito e receba uma mensagem de motivação ou reflexão!
 
-Currently, two official plugins are available:
+## 📌 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React.js** — Criação de componentes dinâmicos e reutilizáveis.
+- 🌍 **i18next** — Suporte a múltiplos idiomas (Português, Inglês e Espanhol).
+- 🎨 **CSS Puro** — Estilização personalizada com animações e responsividade.
+- 🔊 **Áudio Interativo** — Som do biscoito quebrando para maior imersão.
 
-## Expanding the ESLint configuration
+## 🎮 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Clique no biscoito para abrir e receber uma mensagem da sorte.
+✅ Suporte a diferentes idiomas, escolhidos no primeiro acesso.
+✅ Efeitos visuais e sombras para uma experiência mais realista.
+✅ Botão para gerar um novo biscoito e tentar a sorte novamente.
+
+## 📸 Demonstração
+
+![Demonstração do Projeto](https://via.placeholder.com/800x400 "Exemplo do Biscoito da Sorte")
+
+## 🚀 Como Rodar o Projeto
+
+1. **Clone o repositório:**
+   ```sh
+   git clone https://github.com/seu-usuario/biscoito-da-sorte.git
+   ```
+2. **Acesse a pasta do projeto:**
+   ```sh
+   cd biscoito-da-sorte
+   ```
+3. **Instale as dependências:**
+   ```sh
+   npm install
+   ```
+4. **Execute o projeto:**
+   ```sh
+   npm start
+   ```
+5. **Acesse no navegador:** `http://localhost:3000`
+
+## 📂 Estrutura do Projeto
+
+```
+📁 biscoito-da-sorte
+├── 📂 src
+│   ├── 📂 assets       # Imagens e áudios
+│   ├── 📂 components   # Componentes reutilizáveis
+│   ├── App.jsx        # Componente principal
+│   ├── App.css        # Estilização do projeto
+│   ├── index.js       # Ponto de entrada do React
+├── package.json       # Dependências do projeto
+├── README.md          # Documentação
+```
+
+## 📜 Licença
+
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para usá-lo e contribuir! 😃
+
+---
+
+🔗 **Veja o projeto online:** [URL do projeto]
+📌 **Repositório no GitHub:** [GitHub Repo]
+
