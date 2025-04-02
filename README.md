@@ -18,7 +18,7 @@
 
 ## 📸 Demonstração
 
-![Demonstração do Projeto]([https://via.placeholder.com/800x400 "Exemplo do Biscoito da Sorte](https://github.com/Derek-Linhares/Biscoito-da-Sorte/blob/main/demo.png)")
+![Demonstração do Projeto](https://github.com/Derek-Linhares/Biscoito-da-Sorte/blob/main/demo.png)
 
 ## 🚀 Como Rodar o Projeto
 
